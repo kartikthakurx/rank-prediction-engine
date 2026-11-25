@@ -57,4 +57,4 @@ Trained on **9,846 CodeChef profiles** (`codechef_data.csv`) using a `RandomFore
 ## ⚠️ Note on Dataset Scope
 
 This model is trained on the **top 9,846 CodeChef coders** (maximum rating: `3713`).
-Because tree-based models like Random Forest do not extrapolate beyond their training range, ratings below `1700` will have predictions capped near rank `~9,800`.
+Because Random Forest do not extrapolate beyond their training range, ratings below `1700` will have predictions capped near rank `~9,800`.
